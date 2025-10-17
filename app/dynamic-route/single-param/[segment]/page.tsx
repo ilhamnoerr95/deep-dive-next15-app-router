@@ -5,7 +5,7 @@ import React from "react";
  * @singleparam
  * @segmenturlpattern => ex: /dynamic-route/single-param/anything/
  */
-const Page = async ({ param }: { param: Promise<{ segment: string[] }> }) => {
+const Page = async () => {
 	// const { segment } = await param;
 	// console.log("queryParams:", segment);
 

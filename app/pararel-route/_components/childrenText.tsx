@@ -1,6 +1,6 @@
 import React from "react";
 
-const childrenText = () => {
+const ChildrenText = () => {
 	const [state, setState] = React.useState(0);
 	console.log("children text render", state);
 
@@ -23,4 +23,4 @@ const childrenText = () => {
 	);
 };
 
-export default childrenText;
+export default ChildrenText;

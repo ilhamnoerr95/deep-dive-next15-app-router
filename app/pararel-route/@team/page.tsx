@@ -15,7 +15,13 @@ const Page = async () => {
 		<div style={{ backgroundColor: "yellow", color: "red" }}>
 			ini Team pararel route
 			<br />
-			<Link href="/pararel-route/tes"> go to team dynamic single route</Link>
+			<Link
+				href="/pararel-route/2"
+				prefetch
+			>
+				{" "}
+				go to team dynamic single route
+			</Link>
 			{/* <button
 				style={{
 					marginTop: 10,

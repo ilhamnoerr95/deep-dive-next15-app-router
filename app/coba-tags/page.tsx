@@ -7,6 +7,7 @@ const Page = async () => {
 		// Gunakan 'no-store' agar selalu fetch baru tiap request (bukan cache)
 		// cache: "no-store",
 		cache: "force-cache",
+
 		next: { tags: ["coba-tags-cache"] },
 	});
 
